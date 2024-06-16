@@ -6,14 +6,14 @@ bot_token = ''
 
 target_user_id = ''
 
-monitored_chat_ids = ['', '']
+monitored_chat_ids = ['-100123456789', '-100987654321']
 
-keywords = ['', '']
+keywords = ['keyword1', 'keyword1']
 
 group_mapping = {
-    "": {
-        "name": "",
-        "link": ""
+    "-100123456789": {
+        "name": "group_name",
+        "link": "https://t.me/example"
     }
 }
 
